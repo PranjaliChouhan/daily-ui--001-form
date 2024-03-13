@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*labels*/
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 68, 57);
+}
+.container{
+  width: 500px;
+}
+.area{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgb(148, 146, 42);
+}
+#firstName, #lastName{
+  
+  width: 240px;
+  height: 40px;
+  border-radius: 0.25rem;
+  margin-right: 10px;
+  padding: 2px;
+
+}
+#age{
+  width: 500px;
+  height: 40px;
+  border-radius: 0.25rem;
+  padding: 2px;
+
+}
+#address,#address-line2{
+  width: 500px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+
+}
+#city,#postal-code{
+  width: 170px;
+  height: 40px;
+  border-radius: 0.25rem;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 2px;
+}
+#country{
+  width: 130px;
+  height: 40px;
+  border-radius: 0.25rem;
+  padding: 2px;
+}
+#phonenumber{
+  width: 500px;
+  height: 40px;
+  padding: 2px;
+}
+button{
+  width: 120px;
+  height: 40px;
+  border-radius: 0.25rem;
+  margin-right: 10px;
+  margin-top: 10px;
+}
